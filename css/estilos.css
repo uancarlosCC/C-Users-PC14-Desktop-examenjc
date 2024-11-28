@@ -1,0 +1,76 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh; /* Altura de toda la pantalla */
+  }
+
+  .left {
+    width: 50%; /* Ocupa la mitad izquierda de la pantalla */
+    display: flex;
+    flex-direction: column;
+  }
+
+  .top-row {
+    display: flex;
+    height: 50%; /* La fila superior ocupa la mitad de la izquierda */
+  }
+
+  .dato1, .dato11 {
+    flex: 1; /* Ambas secciones ocupan el mismo espacio horizontal */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+
+  .dato1 {
+    background-color: #FF5733; /* Naranja */
+  }
+
+  .dato11 {
+    background-color: #8B4513; /* Marrón */
+  }
+
+  .dato2, .dato3 {
+    height: 25%; /* Cada una ocupa el 25% restante */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+
+  .dato2 {
+    background-color: #A0522D; /* Marrón claro */
+  }
+
+  .dato3 {
+    background-color: #008000; /* Verde */
+  }
+
+  .right {
+    width: 50%; /* Ocupa la mitad derecha de la pantalla */
+    background-color: #007BFF; /* Azul */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 3em;
+    font-weight: bold;
+  }
+  body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url(felino.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+
+  
